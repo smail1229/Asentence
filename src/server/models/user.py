@@ -11,7 +11,7 @@ class User(object):
         "weixin" : None,       # wechart identifier
         "weibo" : None,        # weibo identifier
         "qq" : None,           # qq identifier
-        "collection" : None,   # my collections
+        "collection" : [],     # my collections
         "create_time": None,   # register time
         "update_time": None,   # update time
         "isDelete" : False     # if true the user is deleted

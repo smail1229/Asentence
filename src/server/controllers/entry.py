@@ -22,4 +22,3 @@ class EntryHandler(base):
         for each in result:
             each["_id"] = str(each["_id"])
             self.write(each)
-

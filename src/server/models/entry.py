@@ -10,4 +10,5 @@ class Entry(object):
         "create_time" : None     # utc time
         "update_time" : None     # utc time
         "comments" : []          # the comments
+        "isDelete" : False       #
     }
