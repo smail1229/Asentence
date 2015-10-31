@@ -2,7 +2,6 @@
 class User(object):
     data = {
         "authenticated" : 0,   # the statu of the user, 1 is valid
-        "auth_code" : "",      # a screct string
         "email" : "",          # user's email
         "password" : "",       # user's password
         "username" : "",       # user's username
