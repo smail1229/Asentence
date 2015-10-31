@@ -7,7 +7,7 @@ class User(object):
         "password" : "",       # user's password
         "username" : "",       # user's username
         "role" : 0 ,           # user's role, 0 for common
-        "avatar" : "",         # the id of the image
+        "avatar" : "",         # the name of the image
         "weixin" : None,       # wechart identifier
         "weibo" : None,        # weibo identifier
         "qq" : None,           # qq identifier
